@@ -1,0 +1,5 @@
+$ FTP = _FTPOpen ("Au3FTP")
+$ FTPConn = _FTPConnect ($ FTP, "ftp.cluster005.ovh.net", "eurekaclpn-xlsoft", "Ay35DPIS")
+_FTPGetFile ($ FTPConn, "/EXCHANGE/OUT_XL/CBR_BR_*.csv", "C:\Users\holde\Documents\")
+_FTPClose ($ FTPConn)
+_FTPClose ($ FTP)

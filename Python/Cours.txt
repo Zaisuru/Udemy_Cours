@@ -1,0 +1,6 @@
+les objets muables et immuables
+
+les modules random et OS
+
+Les boucles for et while
+
