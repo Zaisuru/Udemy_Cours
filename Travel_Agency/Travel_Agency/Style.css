@@ -1,0 +1,277 @@
+/* Home */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+h1, h2, h3, h4{
+    color: #444;
+}
+
+h1{
+    font-family: 'Crete Round',serif;
+    font-size: 45px;
+}
+h2{
+    font-size: 55px;
+}
+h3{
+    font-size: 30px;
+}
+h4{
+    font-size: 24px;
+}
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #444;
+}
+p{
+    line-height: 20px;
+    color: #777;
+}
+
+small{
+    font-size: 13px;
+    font-style: italic;
+}
+
+.wrapper{
+    width: 1000px;
+    margin: 0 auto;
+
+}
+.clear{
+    clear: both;
+}
+
+/*header*/
+.Orange{
+    color:#FF7a00;
+}
+header{
+    height: 120px;
+}
+header h1{
+    float: left;
+    margin-top: 32px;
+    margin-left: 10px;
+}
+
+header nav{
+    float: right;
+    margin-top: 50px;
+}
+
+header nav ul li {
+    display: inline-block;
+    float: left;
+}
+header nav ul li a {
+ text-transform: uppercase;
+ font-weight: bold;
+ margin-right: 20px;
+}
+
+/* main-image */
+#main_image{
+    height: 580px;
+    background: url(Image/main.jpg) center;
+}
+
+#main_image h2{
+font-weight: normal;
+text-transform: uppercase;
+text-align: center;
+padding:150px 0px 40px  0px;
+margin: 20px;
+}
+
+.button1{
+    width: 120px;
+    height: 50px;
+    display: block;
+    background-color: #FF7a00;
+    color: #fff;
+    font-size: 20px;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 3px;
+}
+.button1:hover{
+    background: #02b8dd;
+}
+
+/*steps*/
+#steps h4{
+    text-transform: uppercase;
+    margin: 20px;
+    text-align: center;
+}
+#steps p{
+    margin-bottom: 20px;
+}
+
+#steps ul {
+    margin: 80px 0;
+}
+
+#steps ul li {
+    width: 300px;
+    float:left;
+    padding-top: 120px;
+    margin-right: 10px;
+}
+
+#step1{
+    background: url(Image/steps-icon-1.png) no-repeat top center;
+}
+
+#step2{
+
+    background: url(Image/steps-icon-2.png) no-repeat top center;
+}
+#step3{
+    background: url(Image/steps-icon-3.png) no-repeat top center;
+}
+
+/* possibilities */
+
+#possibilities{
+    background-color: #efefef;
+    padding: 60px 0;
+}
+
+#possibilities article{
+    width: 450px;
+    height: 270px;
+    float: left;
+    border-radius: 10px;
+
+}
+
+#possibilities article:first-child{
+    margin-right: 20px;
+}
+.overlay{
+    background: rgba(255,255,255 ,0.95);
+    height: 100%;
+    width: 190px;
+    padding:20px;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+article h4{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#possibilities p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.button2{
+    color: #fff;
+    background-color: #FF7a00;
+    padding:6px 20px;
+    border-radius: 3px;
+
+}
+.button2:hover{
+    background: #02b8dd;
+}
+
+/* contact */
+
+#contact{
+    padding : 60px;
+    text-align: center;
+}
+
+#contact h3{
+    text-transform: uppercase;
+    margin:0 auto 20px auto;
+    padding-bottom: 20px;
+    width: 400px;
+    border-bottom: 1px solid #02b8dd;
+
+}
+
+form{
+    margin: 60px 0 20px 0;
+}
+label{
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+    color: #777;
+}
+input[type="text"]{
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 20px;
+    border: 2px solid #ddd;
+    border-radius: 3px;
+
+}
+
+.button3{
+    color:#fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 11px;
+    background-color: #02b8dd;
+    border-style: none;
+
+}
+.button3:hover{
+    color:#fff;
+    background-color: #444;
+}
+
+/* footer */
+footer{
+    height: 200px;
+    background-color: #444;
+}
+
+footer h1{
+    color: #ddd;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.Copyright{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 30px;
+    color: #777;
+
+}
+
+
+.button4{
+    float: right;
+    padding: 20px;
+    font-size: 30px;
+    font-family: Crete-Round;
+    text-transform: uppercase;
+}
+
+#youtube{
+    text-align: center;
+}
